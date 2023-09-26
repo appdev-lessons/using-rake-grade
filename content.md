@@ -2,14 +2,14 @@
 
 Many of the assignments in this course have automated tests (also known as "specs") built in. They come in two forms:
 
-- from a Codespace to our Grades interface via the `rake grade` bash prompt command when building an app
+- from a codespace to our Grades interface via the `rake grade` bash prompt command when building an app
 - from our graded code blocks found within our Ruby lessons
 
 This lesson covers both of these, and will teach you how to interpret the automated feedback you receive from our tests.
 
 ## Grades within an app assignment: `rake grade`
 
-When you load an assignment from one of our lessons by click the "Load [Project Name] assignment" button, you will be taken to the Grades interface. There, you can click the top link to fork the assignment and setup a Codespace. Gitpod and Local setup instructions are also available, but we recommend sticking with Codespaces.
+When you load an assignment from one of our lessons by click the "Load [Project Name] assignment" button, you will be taken to the Grades interface. There, you can click the top link to fork the assignment and setup a codespace. Gitpod and Local setup instructions are also available, but we recommend sticking with codespaces.
 
 Whichever environment you use to setup the VSCode workspace, you will need to copy and paste the token from the Grades interface into your bash prompt the first time you run `rake grade` to get feedback from our automated tests.
 
@@ -26,7 +26,7 @@ You'll be asked for your access token. If you have closed the Grades interface, 
 <!-- ![](/assets/grades-token.png) -->
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686005312/grades-token_vyb9cy.png)
 
-You will get a pop up window in the Codespace workspace asking for permission to paste from your clipboard into the workspace, you should "Allow" this action.
+You will get a pop up window in the codespace asking for permission to paste from your clipboard into the workspace, you should "Allow" this action.
 
 <!-- ![](assets/grades-token-enter.png) -->
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686008287/grades-token-enter_wf7s8y.png)
@@ -74,7 +74,7 @@ You can run `rake grade` in your terminal as many times as you want, and you wil
 
 ## Sidenote 1: Resetting your token
 
-Ever put in the wrong token to a project? For instance, you put in the token from the `hello-world` Grades interface into the `links` Codespace when you ran `rake grade` the first time.
+Ever put in the wrong token to a project? For instance, you put in the token from the `hello-world` Grades interface into the `links` codespace when you ran `rake grade` the first time.
 
 You can just run
 
@@ -138,7 +138,7 @@ When you click the "Run" button on those tests, you are again making sure the co
 
 ---
 
-This output is not particularly beginner-friendly, but it is what the output of an automated test looks like in the real world, and developers spend all day reading output like this. In fact, this is what the the raw output from our `rake grade` command in your Codespace projects looks like; we just turn it into a beginner friendly format in our Grades interface. 
+This output is not particularly beginner-friendly, but it is what the output of an automated test looks like in the real world, and developers spend all day reading output like this. In fact, this is what the the raw output from our `rake grade` command in your codespace projects looks like; we just turn it into a beginner friendly format in our Grades interface. 
 
 (We're working on making the graded code block results here more readable — stay tuned.)
 
