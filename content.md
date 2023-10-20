@@ -23,8 +23,7 @@ rake grade
 
 You'll be asked for your access token. If you have closed the Grades interface, just click the "Load [Project Name] assignment" button again to reopen it and view the token. Copy-paste the token from the Grades page into your bash prompt after the `>`. This only needs to be done one time, and then the token will be stored in that workspace:
 
-<!-- ![](/assets/grades-token.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686005312/grades-token_vyb9cy.png)
+![](/assets/copy-rake-grade-token.png)
 
 You will get a pop up window in the codespace asking for permission to paste from your clipboard into the workspace, you should "Allow" this action.
 
